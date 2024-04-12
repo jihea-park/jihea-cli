@@ -1,0 +1,21 @@
+{
+  "name": "jihea-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "cli": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "cli": "ts-node ./bin/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
